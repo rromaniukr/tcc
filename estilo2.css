@@ -1,0 +1,128 @@
+.question {
+    text-align: center;
+    border-top: 5px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border-left: 5px;
+    color: orange;
+    border-radius: 100px;
+    font-size: 35px;
+    margin: 40px, 250px, 40px, 250px;
+    padding: 140px;
+    height: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.option {
+    text-align: center;
+    border-top: 5px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border-left: 5px;
+    color: orange;
+    border-radius: 100px;
+    font-size: 20px;
+    margin: 40px, 250px, 40px, 250px;
+    padding: 140px;
+    text-align: center;
+    height: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0.1em 0.1em 0.2em rgb(123, 228, 85);
+}
+
+body {
+    background-image: url();
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    background-color: #fcf8f0;
+    color: #fff;
+}
+
+.button {
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+    border: 4px solid gray;
+    border-radius: px;
+    text-align: center;
+    font-size: 42px;
+    position: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 890px;
+    margin-right: 900px;
+    align-items: center;
+
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.dropdown:hover.dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    margin-bottom: 10px;
+}
+
+.dropdown-menu li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f0f0f0;
+    color: #337ab7;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.options {
+    margin-left: 20px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.result-message {
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#titulo2 {
+    text-align: center;
+    border-top: 5px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border-left: 5px;
+    color: orange;
+    border-radius: 100px;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 150px;
+    text-align: center;
+    height: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: gray;
+}
+
+#resposta {
+    color: gray;
+}
